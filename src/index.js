@@ -13,9 +13,6 @@ import ChatBubble from "./ChatBubble";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 const Gemini = () => {
-  const apiKey = "AIzaSyB8olb-w2KHly0XMavISeKGd_fQwts2DfU";
-  const host = 'http://localhost:8081/';
-
   const geminiHost = host + "?key=" + apiKey;
 
   const [userInput, setuserInput] = useState("");
